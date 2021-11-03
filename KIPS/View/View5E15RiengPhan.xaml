@@ -1,0 +1,15 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:KIPS.View"
+             xmlns:ni="http://schemas.ni.com/controls/2009/xaml/presentation" x:Class="KIPS.View.View5E15RiengPhan"
+             mc:Ignorable="d" 
+             d:DesignHeight="904" d:DesignWidth="1030">
+    <Grid>
+        <ni:MeterDouble HorizontalAlignment="Left" Height="100" Margin="204,182,0,0" VerticalAlignment="Top" Width="180"/>
+        <ni:KnobDouble HorizontalAlignment="Left" Height="185" Margin="501,489,0,0" VerticalAlignment="Top" Width="217" Range="-1, 1, System.Double" Value="0.3" Cursor="None" Interval="0.1" FontSize="8"/>
+        <ni:KnobDouble HorizontalAlignment="Left" Height="172" Margin="574,212,0,0" VerticalAlignment="Top" Width="172" Interval="0.1" Range="-1, 1, System.Double"/>
+    </Grid>
+</UserControl>
